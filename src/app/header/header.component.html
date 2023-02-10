@@ -1,0 +1,7 @@
+<mat-toolbar>
+    <button (click)="sideBarToggler()">
+        <mat-icon class="material-icons side-icon">menu</mat-icon>
+    </button>
+    <span>The Cozy Corner Cafe</span>
+</mat-toolbar>
+<app-sidebar [isToggle]="isClicked"></app-sidebar>
