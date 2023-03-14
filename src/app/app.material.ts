@@ -4,7 +4,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
-export const materialArray = [
+export const MaterialArray = [
   MatToolbarModule,
   MatSidenavModule,
   MatIconModule,
